@@ -1,5 +1,7 @@
+import { gameBoard } from "./board";
+import { compareArrays } from "./helper";
 // create knight
-class Knight {
+export class Knight {
     constructor() {
         // possible moves list
         this.moves = [[-1, -2], [-2, -1], [1, -2], [-2, 1], [2, -1], [-1, 2], [1, 2], [2, 1]];
