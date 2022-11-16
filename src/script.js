@@ -6,7 +6,7 @@ import { knightMoves } from "./knightmoves";
 // create a knight
 const one = new Knight;
 
-// build graph
+// build graph (adjacency list)
 one.buildGraph();
 
 knightMoves(one.graph, [7, 1], [3, 4]);
